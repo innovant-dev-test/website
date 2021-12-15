@@ -1,0 +1,12 @@
+.loginheader-container {
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 30px;
+  }
+  .loginheader-container > a {
+    color: black;
+    margin-right: 20px;
+    text-decoration: none;
+  }
