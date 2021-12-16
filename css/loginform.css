@@ -1,0 +1,30 @@
+.loginform-input {
+    width: 170px;
+    height: 40px;
+    border-radius: 8px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    padding-left: 10px;
+  }
+  .loginform-input-full {
+    width: 350px;
+    height: 40px;
+    border-radius: 8px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    padding-left: 10px;
+  }
+  .loginform-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .loginform-input-name {
+    margin-left: 10px;
+    width: 170px;
+    height: 40px;
+    border-radius: 8px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    padding-left: 10px;
+  }

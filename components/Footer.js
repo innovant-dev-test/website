@@ -1,9 +1,9 @@
 import React from "react";
-import { Logo } from "./Logo";
+import { LogoF } from "./LogoF";
 export const Footer = () => {
   return (
     <div className="footer-container">
-      <Logo />
+      <LogoF />
       <h4 className="copyright">© All Rights Reserved.</h4>
     </div>
   );

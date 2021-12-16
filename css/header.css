@@ -2,7 +2,7 @@
   display: flex;
   background-color: #222222;
   justify-content: space-between;
-  height: 180px;
+  height: 130px;
 }
 .header-list {
   list-style: none;
@@ -12,9 +12,11 @@
   justify-content: center;
 }
 .header-list > li {
-  /* padding-top: 20px; */
+  padding-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
+  /* padding-bottom: 20px; */
+
 }
 
 .header-list > li > a {
