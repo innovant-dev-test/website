@@ -17,7 +17,8 @@ export const Header = () => {
           <a href="#">Contact us</a>
         </li>
       </ul>
-      <i className="bi bi-person" style={{ color: "white" }}></i>
+      <div className="iconn" data-initials="Ar"></div>   
+
     </div>
   );
 };

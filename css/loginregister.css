@@ -36,3 +36,14 @@
     color: gray;
     font-size: 12px;
   }
+  .checklogin{
+position: relative;
+left: 30px;
+top: -49px;
+}
+.checkregiser{
+  position: relative;
+  left: 210px;
+  top: -49px;
+   
+}

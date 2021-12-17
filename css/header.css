@@ -2,24 +2,48 @@
   display: flex;
   background-color: #222222;
   justify-content: space-between;
-  height: 130px;
+  height: 100px;
+  align-items: center;
 }
 .header-list {
   list-style: none;
   display: flex;
   color: white;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
+
 }
 .header-list > li {
   padding-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
-  /* padding-bottom: 20px; */
+  padding-bottom: 20px;
 
 }
 
-.header-list > li > a {
+.header-list > li > a { 
   text-decoration: none;
   color: white;
 }
+.iconn{
+  float:right;
+  margin-right: 20px;
+
+}
+
+[data-initials]:before {
+  font-size:small ;
+  background: white;
+  color: black;
+  opacity: 1; 
+  content: attr(data-initials); 
+  display: inline-block;
+  font-weight: bold; 
+  border-radius: 50%; 
+  vertical-align: middle; 
+  margin-right: 0.5em; 
+  width: 30px; 
+  height: 30px; 
+  line-height: 30px; 
+  text-align: center; 
+  }
